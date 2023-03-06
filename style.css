@@ -1,0 +1,133 @@
+body{
+    font-family: 'century gothic',calibri , serif;
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    text-align: center;
+   font-size: 40px ;
+   font-weight: normal;
+}
+header{
+    height: 100px;
+    border-top: 5px solid black;
+    background-color: bisque;
+    float: center;
+}
+footer{
+height: 80px;
+padding-top: 30px;
+text-align: center;
+background-color: rgb(69, 49, 49);
+border-top: 2px solid rgb(243, 239, 239);
+}
+nav{
+padding: 0px;
+margin: 0px;
+background-color: rgb(39, 39, 71);
+}
+nav ul{
+    padding: 0px;
+margin: 0px;
+}
+
+nav section{
+    list-style-type: none;
+    float: left;
+}
+nav li{
+
+}
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: rgb(150, 145, 145);
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.table{
+    display: table;
+    margin: 0auto;
+}
+.home-html:hover{
+    border-top: 5px solid rgb(238, 233, 233);
+    background-color: brown;
+}
+.exp-html:hover{
+    border-top: 5px solid rgb(9, 9, 61);
+    background-color: blue;
+}
+.cont-html:hover{
+    border-top: 5px solid rgb(234, 234, 27);
+    background-color: rgb(15, 15, 14);
+}
+.work-html:hover{
+    border-top: 5px solid lightseagreen;
+    background-color: rgb(9, 10, 10);
+}
+.pro-html:hover{
+    border-top: 5px solid rgb(236, 46, 4);
+    background-color: rgb(12, 11, 11);
+}
+nav section :hover a{
+ padding: 15px 30px 20px 30px;
+ }
+ .accueil{
+    text-transform: lowercase;
+    background-color: darkolivegreen;
+}
+.travail{
+    border-top: 4px solid rgb(22, 7, 7) ;
+    background-color: darkcyan;
+
+    }
+.right3{
+font-weight: 100px;
+text-align:end;
+float: inline-start;
+border-top: 5px solid rgb(15, 15, 15);
+background-color: brown;
+
+}
+.àp{
+    background-color: brown;
+}
+
+.right1{
+    text-align: right;
+}
+
+ 
+ .par{
+font-size: 13px;
+text-decoration: none;
+color: blue;
+display:;
+ }
+ .parr{
+    
+    color: black;
+    text-decoration: none;
+text-align: center;
+position: relative;
+background-color: rgb(153, 185, 212);
+ }
+ #cont1{
+    background-color: rgb(12, 185, 185);
+    padding: 10px;
+    margin: 20px 0px;
+    background: -moz-radial-gradient(50px 50px , rgb(167, 35, 51),yellow , red);
+ }
+ .right2{
+    background-color: rgb(12, 185, 185);
+    background:linear-gradient(52deg,rgb(11, 11, 145),rgb(116, 127, 227)) ;
+ }
+ #cont1:hover{
+box-shadow: 0px 0px 5px grey;
+ }
+ 
+ .cv{
+    background-color: darkslategray;
+ }
